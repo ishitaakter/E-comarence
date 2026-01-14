@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishita</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navber -->
+
+
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-lg nav-color bg-danger-subtle">
+            <div class="container gap-2">
+                <img src="img/11111.webp" height="40px">
+                <a class="navbar-brand" href="index.html">Ishita</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="product-details.html">Product Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="signup.html">Sign Up</a>
+                        </li>
+                    </ul>
+                    <div class="cart me-3 h4">
+                        <a href=""><i class="fa-solid fa-cart-plus "></i></a>
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- navber end -->
+
+
+
+
+    <main>
+        <div class="container d-flex justify-content-center align-items-center vh-150 my-5">
+            <div class="col-md-6 p-4 bg-transparent shadow-lg rounded-3">
+                <h3 class="text-center mb-3">Creat an account</h3>
+
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-12 col-md-6">
+                            <label class="form-label">First Name</label>
+                            <input type="user name" class="form-control">
+                        </div>
+
+                        <div class="mb-3 col-12 col-md-6">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                     <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input type="number" class="form-control" />
+                    </div>
+
+                     <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input type="email" class="form-control" />
+                    </div>
+
+                     <div class="mb-3">
+                        <label class="form-label">User Name</label>
+                        <input type="user name" class="form-control" />
+                    </div>
+
+                     <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+
+
+                    <button class="btn btn-outline-primary w-100" onclick="alert('Account Created')">Sign Up</button>
+
+                    <p class="text-center mt-3">Already have an account <a href="login.html">Login</a></p>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="text-light py-5 bg-danger-subtle">
+        <div class="container">
+            <div class="time text-center text-black py-3">
+                <h2 id="clock"></h2>
+            </div>
+        </div>
+        <p class="pt-4 text-center text-black">Ⓒ Copyright by Ishita-2026, All right reserve.</p>
+    </footer>
+
+
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

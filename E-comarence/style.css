@@ -1,0 +1,46 @@
+.nav-link:hover{
+    background-color: rgb(86, 164, 223);
+    border-radius: 10px;
+}
+.carousel-item{
+    height: 600px;
+}
+.icon{
+    position: relative;
+}
+.icon .love{
+    position: absolute;
+    top: 10px;
+    left: 88%;
+    color: rgb(233, 175, 226);
+    transform: scale(2);
+}
+.love:hover{
+    color: rgb(255, 21, 21);
+    transform: scale(2);
+}
+.stock{
+    position: absolute;
+    background-color: rgba(185, 240, 6, 0.599);
+    z-index: 5;
+    font-size: 15px;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.stock:hover{
+    background-color: green;
+}
+.img-zoom{
+    overflow: hidden;
+}
+.img-zoom img{
+    height: 400px;
+    object-fit: cover;
+    transition: 0.7s;
+
+}
+.img-zoom img:hover{
+    transform: scale(1.1);
+}
